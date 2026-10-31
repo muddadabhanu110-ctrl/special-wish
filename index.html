@@ -65,7 +65,21 @@ footer{text-align:center;color:#c8b5e9;font-size:.75rem;margin-top:28px}
  <div class="hero"><div class="eyebrow">Page 02 · Your special day</div><h2>Happy Birthday, Lally! 🎂</h2><div class="card wish"><p>May your day sparkle with happiness, your heart stay full of hope, and every little dream find its way to you.</p><p class="telugu">నీ జీవితంలో ప్రతి రోజు ఆనందం, ప్రేమ, నవ్వులతో నిండిపోవాలి. నీ కలలన్నీ నిజం కావాలి!</p><p>Keep shining, keep smiling, and never forget how special you are. <strong>You deserve beautiful things. 💜</strong></p><div class="big">🎂🦋</div><button class="primary" onclick="confettiBurst()">Make a wish ✨</button></div></div>
 </section>
 <section class="page" id="p2">
- <div class="hero"><div class="eyebrow">Page 03 · Little moments, forever memories</div><h2>Memory Gallery 📸</h2><p class="sub">Add Lally's favourite pictures to make this page personal.</p><div class="card"><div class="photo-grid" id="photoGrid"><div class="photo-slot">📷<br>Memory 1</div><div class="photo-slot">🦋<br>Memory 2</div><div class="photo-slot">🌷<br>Memory 3</div></div><label class="file-label" for="photos">＋ Add photos</label><input id="photos" type="file" accept="image/*" multiple></div></div>
+ <div class="hero"><div class="eyebrow">Page 03 · Little moments, forever memories</div><h2>Memory Gallery 📸</h2><p class="sub">Add Lally's favourite pictures to make this page personal.</p><div class="card"><div class="photo-grid">
+
+    <div class="photo-slot">
+        <img src="images/photo1.jpg" alt="Memory 1">
+    </div>
+
+    <div class="photo-slot">
+        <img src="images/photo2.jpeg" alt="Memory 2">
+    </div>
+
+    <div class="photo-slot">
+        <img src="images/photo3.jpg" alt="Memory 3">
+    </div>
+
+</div><label class="file-label" for="photos">＋ Add photos</label><input id="photos" type="file" accept="image/*" multiple></div></div>
 </section>
 <section class="page" id="p3">
  <div class="hero"><div class="eyebrow">Page 04 · Make a wish</div><h2>Light Your Birthday Candle 🕯️</h2><p class="sub">Tap the candle or use the microphone button and gently blow.</p><div class="card"><div class="candle" onclick="blowCandle()"><div class="flame" id="wishFlame"></div><div class="candle-body"></div></div><p id="candleMsg" class="wish">Close your eyes and make a beautiful wish, Lally. 💜</p><div class="btnrow"><button class="primary" onclick="blowCandle()">Blow candle</button><button class="secondary" onclick="micBlow('candle')">🎤 Use microphone</button></div><p class="telugu">నీ మనసులో కోరుకున్న మంచి కోరికలన్నీ నిజం కావాలి!</p></div></div>
