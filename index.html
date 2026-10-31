@@ -132,7 +132,7 @@ const giftData=[
  {title:'Gift 3 · Mic & Birthday Song',file:'lally9.mp4',caption:'A special birthday song just for you. 🎤'},
  {title:'Gift 4 · Cake Cutting',file:'lally7.mp4',caption:'Let’s celebrate with cake and smiles! 🎂'},
  {title:'Gift 5 · BTS ARMY Purple Love',file:'./lally5.mp4',caption:'Borahae, Lally! Purple love always. 💜'},
- {title:'Gift 6 · Final Surprise',file:'gift6-final-wish.mp4',caption:'One final surprise, with lots of love. 🦋'}
+ {title:'Gift 6 · Final Surprise',file:'lally11.mp4',caption:'One final surprise, with lots of love. 🦋'}
 ];
 function openGift(i){const d=giftData[i],modal=document.getElementById('giftModal'),video=document.getElementById('giftVideo');document.getElementById('giftTitle').textContent=d.title;document.getElementById('giftCaption').textContent=d.caption;document.getElementById('videoHelp').textContent='Video file needed: '+d.file+' · Keep it in the same folder as this HTML file.';video.pause();video.innerHTML='';const source=document.createElement('source');source.src=d.file;source.type='video/mp4';video.appendChild(source);video.load();modal.classList.add('open');video.play().catch(()=>{});video.onerror=()=>{document.getElementById('videoHelp').textContent='Could not find '+d.file+'. Add this MP4 file beside the HTML file, then reopen the gift.'}}
 function closeGift() {
