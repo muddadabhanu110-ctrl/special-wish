@@ -128,7 +128,7 @@ async function micBlow(which){if(!navigator.mediaDevices?.getUserMedia){alert('M
 document.getElementById('photos').addEventListener('change',e=>{const grid=document.getElementById('photoGrid');grid.innerHTML='';[...e.target.files].slice(0,12).forEach(file=>{const box=document.createElement('div');box.className='photo-slot';const img=document.createElement('img');img.src=URL.createObjectURL(file);img.alt='Lally memory';box.appendChild(img);grid.appendChild(box)})});
 const giftData=[
  {title:'Gift 1 · Birthday Wishes',file:'lally8.mp4',caption:'A little bundle of birthday wishes for you, Lally. 💜'},
- {title:'Gift 2 · Candle Lighting',file:'gift2-candle.mp4',caption:'Make a wish and let your light shine. 🕯️'},
+ {title:'Gift 2 · Candle Lighting',file:'lally10.mp4',caption:'Make a wish and let your light shine. 🕯️'},
  {title:'Gift 3 · Mic & Birthday Song',file:'lally9.mp4',caption:'A special birthday song just for you. 🎤'},
  {title:'Gift 4 · Cake Cutting',file:'lally7.mp4',caption:'Let’s celebrate with cake and smiles! 🎂'},
  {title:'Gift 5 · BTS ARMY Purple Love',file:'./lally5.mp4',caption:'Borahae, Lally! Purple love always. 💜'},
