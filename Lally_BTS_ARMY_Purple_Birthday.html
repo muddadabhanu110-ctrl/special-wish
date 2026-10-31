@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Lally | BTS ARMY Purple World</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Baloo+2:wght@500;600;700&display=swap');
+:root{--bg:#09051a;--bg2:#1a0b35;--purple:#7b42d8;--lav:#c7a8ff;--pink:#f2b6e6;--gold:#f4dfaa;--white:#fffaff;--muted:#dfd2f4;--glass:rgba(35,20,66,.78);--line:rgba(211,183,255,.28)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;min-height:100vh;color:var(--white);font-family:Poppins,Arial,sans-serif;background:radial-gradient(ellipse at 15% 5%,#48207888,transparent 36%),radial-gradient(ellipse at 90% 85%,#33206b88,transparent 38%),linear-gradient(135deg,#080415,#160b2d 55%,#09051a);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;background-image:radial-gradient(#fff 1px,transparent 1px),radial-gradient(#c7a8ff 1px,transparent 1px);background-size:67px 67px,113px 113px;background-position:0 0,32px 47px;opacity:.4}
+header{position:sticky;top:0;z-index:20;display:flex;align-items:center;justify-content:space-between;padding:12px clamp(14px,4vw,42px);background:#0c061be8;border-bottom:1px solid var(--line);backdrop-filter:blur(15px)}
+.brand{display:flex;align-items:center;gap:11px;color:#f1e6ff;font-weight:900;letter-spacing:1.6px;font-size:.95rem}.brand small{display:block;font-size:.58rem;color:var(--lav);letter-spacing:3px;font-weight:700}
+.logo{width:40px;height:40px;filter:drop-shadow(0 0 9px #a77aff88)}.page-count{font-size:.78rem;color:var(--lav);text-align:right}
+main{position:relative;z-index:1;max-width:980px;margin:0 auto;padding:28px 18px 100px;min-height:calc(100vh - 70px)}
+.page{display:none;animation:appear .55s ease both}.page.active{display:block}@keyframes appear{from{opacity:0;transform:translateY(15px)}to{opacity:1;transform:translateY(0)}}
+.hero{text-align:center;padding:clamp(25px,7vh,70px) 8px 24px}.eyebrow{font-size:.72rem;letter-spacing:3px;text-transform:uppercase;color:var(--pink);font-weight:700}
+h1{font-size:clamp(2.5rem,8vw,5.5rem);line-height:1.08;margin:15px 0;background:linear-gradient(100deg,#fff,#d6bcff 48%,#f4c5e9);color:transparent;background-clip:text;-webkit-background-clip:text}
+h2{font-size:clamp(1.7rem,5vw,2.8rem);margin:12px 0 18px;color:#eadcff;text-align:center}
+.sub{max-width:680px;margin:0 auto;color:var(--muted);line-height:1.9}
+.card{max-width:760px;margin:24px auto;padding:clamp(20px,5vw,36px);background:linear-gradient(145deg,#ffffff17,#ffffff08);border:1px solid var(--line);border-radius:26px;box-shadow:0 22px 60px #02010c70;backdrop-filter:blur(12px)}
+.big{font-size:clamp(4rem,13vw,7rem);filter:drop-shadow(0 0 22px #a77aff);animation:float 3s ease-in-out infinite}@keyframes float{50%{transform:translateY(-10px) rotate(4deg)}}
+.btnrow{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin:24px auto 8px}
+button{border:0;border-radius:999px;padding:13px 23px;font:700 .92rem Poppins,sans-serif;cursor:pointer;transition:.2s}
+button:hover{transform:translateY(-2px);filter:brightness(1.1)}button:disabled{opacity:.45;cursor:not-allowed;transform:none}
+.primary{color:#211039;background:linear-gradient(110deg,#c4a0ff,#f1bce8);box-shadow:0 9px 25px #a879e955}.secondary{color:#f8f0ff;background:#ffffff12;border:1px solid #ffffff42}
+.nav{position:fixed;z-index:25;bottom:0;left:0;right:0;display:flex;justify-content:center;gap:12px;padding:13px;background:#0c061bf0;border-top:1px solid var(--line);backdrop-filter:blur(14px)}.nav button{min-width:115px}
+.telugu{font-family:'Baloo 2',Poppins,sans-serif;color:#f1dfff;font-size:1.13rem;line-height:1.8}
+.wish{font-size:1rem;line-height:2;color:#f8f0ff;text-align:center}.wish strong{color:#ffd0ed}
+.photo-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-top:20px}
+.photo-slot{aspect-ratio:4/5;border:1px dashed #d7bcff88;border-radius:19px;background:#ffffff0b;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;position:relative;color:#e8d9ff;padding:10px}.photo-slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.file-label{display:inline-block;margin-top:15px;padding:11px 18px;border-radius:30px;background:#ffffff16;border:1px solid #ffffff55;color:#fff;cursor:pointer;font-weight:600}input[type=file]{display:none}
+.candle{height:155px;width:66px;margin:32px auto 15px;position:relative;cursor:pointer}.candle-body{position:absolute;bottom:0;width:100%;height:125px;border-radius:10px;background:linear-gradient(90deg,#a78bfa,#e6c8ff,#9c6bd9);box-shadow:0 0 24px #9d6bdf77}.flame{position:absolute;top:0;left:50%;transform:translateX(-50%);height:31px;width:21px;border-radius:50% 50% 25% 25%;background:radial-gradient(circle at 50% 65%,#fff,#ffe77d 48%,#ff8c42 75%);box-shadow:0 0 20px #ffca55;animation:flicker .45s infinite alternate;z-index:2}@keyframes flicker{to{transform:translateX(-50%) scale(1.12) rotate(4deg)}}
+.cake{font-size:clamp(6rem,20vw,9rem);cursor:pointer;display:inline-block;filter:drop-shadow(0 0 18px #c7a8ff88);transition:.3s}.cake:hover{transform:scale(1.05)}
+.note{color:#e8d9ff;line-height:1.9}.gift-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:26px auto;max-width:760px}
+.gift{min-height:150px;border-radius:22px;border:1px solid #d8bdff55;background:linear-gradient(145deg,#42216eaa,#1c1745ee);color:#f9edff;box-shadow:0 12px 28px #03010d66;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.gift .emoji{font-size:3.2rem;filter:drop-shadow(0 0 12px #c7a8ff88)}.gift small{color:#d8c4ff;letter-spacing:1px}
+.modal{display:none;position:fixed;inset:0;z-index:50;background:#05020de8;backdrop-filter:blur(9px);align-items:center;justify-content:center;padding:16px}.modal.open{display:flex}
+.modal-card{width:min(760px,100%);max-height:92vh;overflow:auto;padding:22px;border-radius:25px;border:1px solid var(--line);background:linear-gradient(145deg,#261347,#100b29);text-align:center;box-shadow:0 20px 80px #000}
+.modal video{width:100%;max-height:65vh;background:#000;border-radius:14px;margin:12px 0}
+.final-letter{text-align:left;line-height:2;color:#f4eaff}.final-letter p{margin:0 0 15px}
+.logo-large{width:90px;height:90px;margin:0 auto 15px;filter:drop-shadow(0 0 18px #b18cff)}
+footer{text-align:center;color:#c8b5e9;font-size:.75rem;margin-top:28px}
+@media(max-width:560px){.gift-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.gift{min-height:130px}.gift .emoji{font-size:2.7rem}.nav button{min-width:0;flex:1;padding:12px 15px}header{padding:10px 13px}.brand{font-size:.8rem}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">
+    <svg class="logo" viewBox="0 0 100 100" role="img" aria-label="BTS ARMY inspired purple emblem">
+      <path d="M12 16 L44 16 L44 84 L12 84 Z" fill="none" stroke="#d7c0ff" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M56 16 L88 16 L88 84 L56 84 Z" fill="none" stroke="#d7c0ff" stroke-width="7" stroke-linejoin="round"/>
+      <path d="M20 24 L36 24 L36 76 L20 76 Z M64 24 L80 24 L80 76 L64 76 Z" fill="#8f63df" opacity=".55"/>
+    </svg>
+    <div>BTS ARMY <small>BORAHAE FOREVER</small></div>
+  </div>
+  <div class="page-count" id="pageCount">PAGE 1 / 8</div>
+</header>
+<main>
+<section class="page active" id="p0">
+ <div class="hero"><svg class="logo-large" viewBox="0 0 100 100" aria-label="BTS ARMY inspired purple emblem"><path d="M12 16 L44 16 L44 84 L12 84 Z M56 16 L88 16 L88 84 L56 84 Z" fill="none" stroke="#d7c0ff" stroke-width="7" stroke-linejoin="round"/><path d="M20 24 L36 24 L36 76 L20 76 Z M64 24 L80 24 L80 76 L64 76 Z" fill="#8f63df" opacity=".55"/></svg>
+ <div class="eyebrow">A purple universe made just for you</div><div class="big">💜</div><h1>Hey, Lally!</h1><p class="sub">Welcome to your own BTS ARMY-inspired birthday world — filled with purple love, sweet memories and six little surprises.</p><div class="btnrow"><button class="primary" onclick="go(1)">Enter your purple world ✨</button></div><span class="pill">#BORAHAE</span></div>
+</section>
+<section class="page" id="p1">
+ <div class="hero"><div class="eyebrow">Page 02 · Your special day</div><h2>Happy Birthday, Lally! 🎂</h2><div class="card wish"><p>May your day sparkle with happiness, your heart stay full of hope, and every little dream find its way to you.</p><p class="telugu">నీ జీవితంలో ప్రతి రోజు ఆనందం, ప్రేమ, నవ్వులతో నిండిపోవాలి. నీ కలలన్నీ నిజం కావాలి!</p><p>Keep shining, keep smiling, and never forget how special you are. <strong>You deserve beautiful things. 💜</strong></p><div class="big">🎂🦋</div><button class="primary" onclick="confettiBurst()">Make a wish ✨</button></div></div>
+</section>
+<section class="page" id="p2">
+ <div class="hero"><div class="eyebrow">Page 03 · Little moments, forever memories</div><h2>Memory Gallery 📸</h2><p class="sub">Add Lally's favourite pictures to make this page personal.</p><div class="card"><div class="photo-grid" id="photoGrid"><div class="photo-slot">📷<br>Memory 1</div><div class="photo-slot">🦋<br>Memory 2</div><div class="photo-slot">🌷<br>Memory 3</div></div><label class="file-label" for="photos">＋ Add photos</label><input id="photos" type="file" accept="image/*" multiple></div></div>
+</section>
+<section class="page" id="p3">
+ <div class="hero"><div class="eyebrow">Page 04 · Make a wish</div><h2>Light Your Birthday Candle 🕯️</h2><p class="sub">Tap the candle or use the microphone button and gently blow.</p><div class="card"><div class="candle" onclick="blowCandle()"><div class="flame" id="wishFlame"></div><div class="candle-body"></div></div><p id="candleMsg" class="wish">Close your eyes and make a beautiful wish, Lally. 💜</p><div class="btnrow"><button class="primary" onclick="blowCandle()">Blow candle</button><button class="secondary" onclick="micBlow('candle')">🎤 Use microphone</button></div><p class="telugu">నీ మనసులో కోరుకున్న మంచి కోరికలన్నీ నిజం కావాలి!</p></div></div>
+</section>
+<section class="page" id="p4">
+ <div class="hero"><div class="eyebrow">Page 05 · Cake time</div><h2>Let's Cut the Cake! 🎂</h2><p class="sub">Tap the cake to celebrate, or use the microphone to blow the candle first.</p><div class="card"><div class="cake" onclick="cutCake()" id="cakeEmoji">🎂</div><p class="wish" id="cakeMsg">One sweet cake for one very special Lally!</p><div class="btnrow"><button class="primary" onclick="cutCake()">Cut the cake 🎉</button><button class="secondary" onclick="micBlow('cake')">🎤 Blow with mic</button></div><p class="telugu">పుట్టినరోజు శుభాకాంక్షలు లల్లి! నీ జీవితం కేక్‌లా తీపిగా ఉండాలి!</p></div></div>
+</section>
+<section class="page" id="p5">
+ <div class="hero"><div class="eyebrow">Page 06 · A special video</div><h2>Birthday Video Surprise 🎬</h2><p class="sub">Add your main birthday video as <b>lally-main.mp4</b> in the same folder as this HTML file.</p><div class="card"><video controls playsinline preload="metadata" style="width:100%;max-height:60vh;background:#000;border-radius:16px" poster=""><source src="lally-main.mp4" type="video/mp4">Your browser does not support video.</video><p class="note">If you have a different video filename, change the source name in the HTML.</p></div></div>
+</section>
+<section class="page" id="p6">
+ <div class="hero"><div class="eyebrow">Page 07 · Six little surprises</div><h2>Open Your Purple Gifts 🎁</h2><p class="sub">Tap each gift box to open its birthday video surprise.</p>
+ <div class="gift-grid" id="giftGrid">
+  <button class="gift" onclick="openGift(0)"><span class="emoji">🎁</span><b>Gift 1</b><small>WISH VIDEO</small></button>
+  <button class="gift" onclick="openGift(1)"><span class="emoji">🎁</span><b>Gift 2</b><small>CANDLE LIGHT</small></button>
+  <button class="gift" onclick="openGift(2)"><span class="emoji">🎁</span><b>Gift 3</b><small>MIC & SONG</small></button>
+  <button class="gift" onclick="openGift(3)"><span class="emoji">🎁</span><b>Gift 4</b><small>CAKE CUTTING</small></button>
+  <button class="gift" onclick="openGift(4)"><span class="emoji">🎁</span><b>Gift 5</b><small>BTS ARMY LOVE</small></button>
+  <button class="gift" onclick="openGift(5)"><span class="emoji">🎁</span><b>Gift 6</b><small>FINAL WISH</small></button>
+ </div><p class="telugu">ప్రతి గిఫ్ట్‌లో నీకోసం ఒక చిన్న సర్‌ప్రైజ్ ఉంది! 💜</p></div>
+</section>
+<section class="page" id="p7">
+ <div class="hero"><div class="eyebrow">Page 08 · The last page, not the last wish</div><div class="big">💜🦋💜</div><h1>Happy Birthday, Lally!</h1><div class="card final-letter"><p>Dear Lally,</p><p>May this new year of your life bring you courage to follow your dreams, friends who make you laugh, and moments that become your favourite memories.</p><p class="telugu">ఎప్పుడూ నీ మీద నమ్మకం ఉంచుకో. నీ కలల్ని ధైర్యంగా వెంటాడు. నీ ప్రతి అడుగులో విజయం, ప్రతి రోజులో సంతోషం ఉండాలి.</p><p>Keep your heart kind, your smile bright and your purple spirit strong. Wherever life takes you, may you always find a reason to shine.</p><p style="text-align:center;color:#e8d1ff;font-weight:800">BTS ARMY PURPLE LOVE · BORahae! 💜</p></div><button class="primary" onclick="confettiBurst()">Celebrate again 🎉</button><footer>Made with purple love for Lally · BTS ARMY-inspired birthday theme</footer></div>
+</section>
+</main>
+<nav class="nav"><button class="secondary" id="backBtn" onclick="go(current-1)" disabled>← Back</button><button class="primary" id="nextBtn" onclick="go(current+1)">Next →</button></nav>
+<div class="modal" id="giftModal" onclick="if(event.target===this)closeGift()"><div class="modal-card"><h2 id="giftTitle">Your Surprise 💜</h2><video id="giftVideo" controls playsinline preload="metadata"></video><p id="giftCaption" class="wish"></p><p id="videoHelp" class="note" style="font-size:.8rem"></p><button class="primary" onclick="closeGift()">Close gift ✨</button></div></div>
+<script>
+let current=0;
+const titles=['Welcome','Birthday Wishes','Memory Gallery','Candle Wish','Cake Cutting','Special Video','Six Gift Boxes','Final Surprise'];
+function go(n){current=Math.max(0,Math.min(7,n));document.querySelectorAll('.page').forEach((p,i)=>p.classList.toggle('active',i===current));document.getElementById('pageCount').textContent=`PAGE ${current+1} / 8 · ${titles[current].toUpperCase()}`;document.getElementById('backBtn').disabled=current===0;document.getElementById('nextBtn').textContent=current===7?'Start again ↺':'Next →';window.scrollTo({top:0,behavior:'smooth'});if(current===7)confettiBurst()}
+function confettiBurst(){const chars=['💜','✨','🦋','🎉','🌸'];for(let i=0;i<38;i++){const e=document.createElement('span');e.textContent=chars[Math.floor(Math.random()*chars.length)];e.style.cssText=`position:fixed;z-index:80;top:-30px;left:${Math.random()*100}vw;font-size:${16+Math.random()*18}px;pointer-events:none;animation:fall ${2.4+Math.random()*2}s linear forwards`;document.body.appendChild(e);setTimeout(()=>e.remove(),4800)}}
+const style=document.createElement('style');style.textContent='@keyframes fall{to{transform:translateY(110vh) rotate(540deg);opacity:0}}';document.head.appendChild(style);
+function blowCandle(){const f=document.getElementById('wishFlame');if(f)f.style.display='none';document.getElementById('candleMsg').textContent='Your wish is on its way! Happy Birthday, Lally! 💜';confettiBurst()}
+function cutCake(){document.getElementById('cakeEmoji').textContent='🍰';document.getElementById('cakeMsg').textContent='Yay! Cake cut! Happy Birthday, Lally! 🎉💜';confettiBurst()}
+async function micBlow(which){if(!navigator.mediaDevices?.getUserMedia){alert('Microphone is not supported here. Tap the candle/cake instead.');return}try{const stream=await navigator.mediaDevices.getUserMedia({audio:true});const ctx=new (window.AudioContext||window.webkitAudioContext)();const src=ctx.createMediaStreamSource(stream);const analyser=ctx.createAnalyser();analyser.fftSize=256;src.connect(analyser);const data=new Uint8Array(analyser.frequencyBinCount);const msg=which==='candle'?'Listening… gently blow toward your microphone.':'Listening… blow toward your microphone.';document.getElementById(which==='candle'?'candleMsg':'cakeMsg').textContent=msg;let hits=0;const started=Date.now();function check(){analyser.getByteFrequencyData(data);const avg=data.reduce((a,b)=>a+b,0)/data.length;if(avg>42)hits++;if(hits>=3||Date.now()-started>12000){stream.getTracks().forEach(t=>t.stop());ctx.close();if(which==='candle')blowCandle();else cutCake();return}requestAnimationFrame(check)}check()}catch(e){alert('Microphone permission was not granted. You can tap the candle or cake instead.')}}
+document.getElementById('photos').addEventListener('change',e=>{const grid=document.getElementById('photoGrid');grid.innerHTML='';[...e.target.files].slice(0,12).forEach(file=>{const box=document.createElement('div');box.className='photo-slot';const img=document.createElement('img');img.src=URL.createObjectURL(file);img.alt='Lally memory';box.appendChild(img);grid.appendChild(box)})});
+const giftData=[
+ {title:'Gift 1 · Birthday Wishes',file:'gift1-wishes.mp4',caption:'A little bundle of birthday wishes for you, Lally. 💜'},
+ {title:'Gift 2 · Candle Lighting',file:'gift2-candle.mp4',caption:'Make a wish and let your light shine. 🕯️'},
+ {title:'Gift 3 · Mic & Birthday Song',file:'gift3-mic-song.mp4',caption:'A special birthday song just for you. 🎤'},
+ {title:'Gift 4 · Cake Cutting',file:'gift4-cake-cutting.mp4',caption:'Let’s celebrate with cake and smiles! 🎂'},
+ {title:'Gift 5 · BTS ARMY Purple Love',file:'gift5-bts-army.mp4',caption:'Borahae, Lally! Purple love always. 💜'},
+ {title:'Gift 6 · Final Surprise',file:'gift6-final-wish.mp4',caption:'One final surprise, with lots of love. 🦋'}
+];
+function openGift(i){const d=giftData[i],modal=document.getElementById('giftModal'),video=document.getElementById('giftVideo');document.getElementById('giftTitle').textContent=d.title;document.getElementById('giftCaption').textContent=d.caption;document.getElementById('videoHelp').textContent='Video file needed: '+d.file+' · Keep it in the same folder as this HTML file.';video.pause();video.innerHTML='';const source=document.createElement('source');source.src=d.file;source.type='video/mp4';video.appendChild(source);video.load();modal.classList.add('open');video.play().catch(()=>{});video.onerror=()=>{document.getElementById('videoHelp').textContent='Could not find '+d.file+'. Add this MP4 file beside the HTML file, then reopen the gift.'}}
+function closeGift(){const v=document.getElementById('giftVideo');v.pause();document.getElementById('giftModal').classList.remove('open')}
+</script>
+</body>
+</html>
