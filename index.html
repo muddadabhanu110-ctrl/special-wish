@@ -45,7 +45,16 @@ footer{text-align:center;color:#c8b5e9;font-size:.75rem;margin-top:28px}
 </style>
 </head>
 <body>
+
+<audio id="bgMusic" loop>
+    <source src="lally-song.mp3" type="audio/mpeg">
+</audio>
 <header>
+<button id="musicBtn"
+onclick="toggleMusic()"
+class="secondary">
+🎵 Play Music
+</button>
   <div class="brand">
     <svg class="logo" viewBox="0 0 100 100" role="img" aria-label="BTS ARMY inspired purple emblem">
       <path d="M12 16 L44 16 L44 84 L12 84 Z" fill="none" stroke="#d7c0ff" stroke-width="7" stroke-linejoin="round"/>
@@ -126,7 +135,24 @@ const giftData=[
  {title:'Gift 6 · Final Surprise',file:'gift6-final-wish.mp4',caption:'One final surprise, with lots of love. 🦋'}
 ];
 function openGift(i){const d=giftData[i],modal=document.getElementById('giftModal'),video=document.getElementById('giftVideo');document.getElementById('giftTitle').textContent=d.title;document.getElementById('giftCaption').textContent=d.caption;document.getElementById('videoHelp').textContent='Video file needed: '+d.file+' · Keep it in the same folder as this HTML file.';video.pause();video.innerHTML='';const source=document.createElement('source');source.src=d.file;source.type='video/mp4';video.appendChild(source);video.load();modal.classList.add('open');video.play().catch(()=>{});video.onerror=()=>{document.getElementById('videoHelp').textContent='Could not find '+d.file+'. Add this MP4 file beside the HTML file, then reopen the gift.'}}
-function closeGift(){const v=document.getElementById('giftVideo');v.pause();document.getElementById('giftModal').classList.remove('open')}
+function closeGift(){const v=document.getElementById('giftVideo');v.pause();document.getElementById('giftModal').classList.remove('open')
+const music = document.getElementById("bgMusic");
+const musicBtn = document.getElementById("musicBtn");
+
+function toggleMusic() {
+    if (music.paused) {
+        music.play()
+            .then(() => {
+                musicBtn.textContent = "🎵 Pause Music";
+            })
+            .catch(error => {
+                alert("Song could not be played. Please check the audio file.");
+            });
+    } else {
+        music.pause();
+        musicBtn.textContent = "🎵 Play Music";
+    }
+}
 </script>
 </body>
 </html>
